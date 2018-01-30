@@ -6,7 +6,7 @@ This program reads in a Machine Language file specified as a command line argume
 
 This program contains four classes: BinaryParser, Instruction, OpcodeTable, and RegisterTable. It also contains a file ASM.cpp which uses all the classes to print the instructions in MIPS Assembly.
 
-##Description of Classes:
+## Description of Classes:
 
 **OpcodeTable:** This class contains information about the format of specific instructions. Specifically it contains information about the Mips instruction fields: opcode, register, immediate, and function. It also contains this information for all supported Machine language instructions.
 
